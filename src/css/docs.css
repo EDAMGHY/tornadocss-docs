@@ -1,0 +1,23 @@
+.code {
+  background: #333;
+  color: var(--light);
+  font-size: 1.05rem;
+  padding: 1.5rem 2rem;
+  margin: 0.5rem 0;
+  width: 100%;
+  display: inline-block;
+  border-radius: 5px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  font-weight: bold;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .code {
+    font-size: 0.8rem;
+    padding: 1rem;
+    margin: 0.25rem 0;
+  }
+}

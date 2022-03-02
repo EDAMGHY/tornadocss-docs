@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Roboto+Slab&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+:root {
+  --primary: #9dafe5;
+  --dark: #333;
+  --light: #fff;
+}
+::selection {
+  background: var(--dark);
+  color: var(--primary);
+}
+body {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  max-width: 1100px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+h1 {
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+li,
+a,
+img {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  background: transparent;
+  color: var(--dark);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+nav .container > a {
+  padding: 0;
+  display: inline-block;
+  margin-bottom: -5.1px;
+}
+nav .container img {
+  object-fit: cover;
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .container ul {
+  display: flex;
+}
+nav .container ul li a {
+  font-size: 1.5rem;
+  display: inline-block;
+  color: var(--dark);
+  background: transparent;
+  transition: color 0.7s ease, background 0.5s ease, transform 0.7s ease;
+}
+nav .container ul li a:hover {
+  transform: scale(1.2);
+  color: rgba(0, 0, 0, 0.5);
+}
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-color: #22c1c3;
+  background-image: linear-gradient(90deg, #22c1c3 0%, #fac24a 100%);
+  background-size: 400%;
+  animation: gradient 10s infinite alternate;
+  color: var(--dark);
+}
+@keyframes gradient {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}
+.hero .container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.hero .container h1 {
+  font-size: 5rem;
+  line-height: 1;
+  letter-spacing: 10px;
+}
+.hero .container h1,
+.hero .container p {
+  text-align: center;
+}
+.hero .container p {
+  letter-spacing: 1.5px;
+  line-height: 1.75;
+  font-size: 1.25rem;
+  margin: 0;
+  font-weight: 500;
+  color: var(--dark);
+}
+.hero .container .btn {
+  display: inline-block;
+  padding: 1rem;
+  letter-spacing: 3px;
+  background: transparent;
+  color: var(--dark);
+  font-size: 1rem;
+  border: 2px solid var(--dark);
+  text-transform: uppercase;
+  border-radius: 5px;
+  outline-offset: 3px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: color 0.5s ease, background 0.5s ease, border-color 0.7s ease,
+    transform 0.3s ease;
+}
+.hero .container .btn:hover {
+  background: rgba(0, 0, 0, 0.15);
+  color: var(--dark);
+  border: 2px solid var(--dark);
+}
+.hero .container .btn:focus {
+  outline: 0;
+}
+.hero .container .btn:active {
+  transform: scale(0.9);
+}
+@media (max-width: 900px) {
+  .hero .container h1 {
+    font-size: 4.5rem;
+    letter-spacing: 7px;
+  }
+  .hero .container p {
+    font-size: 1rem;
+  }
+  .hero .container .btn {
+    padding: 0.75rem;
+    letter-spacing: 1px;
+    font-size: 90%;
+  }
+}
+@media (max-width: 600px) {
+  nav .container img {
+    width: 75%;
+  }
+  .hero .container h1 {
+    font-size: 3rem;
+    letter-spacing: 5px;
+  }
+  .hero .container p {
+    font-size: 0.75rem;
+  }
+}
+@media (max-width: 500px) {
+  .hero .container h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+  }
+  .hero .container .btn {
+    width: 100%;
+    text-align: center;
+  }
+}

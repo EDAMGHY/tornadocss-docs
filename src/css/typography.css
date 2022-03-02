@@ -1,0 +1,129 @@
+.table td,
+.table th {
+  padding: 0.5rem 0;
+}
+.table p {
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+}
+.font-sans {
+  font-family: sans-serif !important;
+}
+.font-serif {
+  font-family: serif !important;
+}
+.font-mono {
+  font-family: monospace !important;
+}
+.font-oswald {
+  font-family: 'Oswald', Helvetica, Arial, sans-serif !important;
+}
+.font-inter {
+  font-family: 'Inter', Helvetica, Arial, sans-serif !important;
+}
+.font-roboto {
+  font-family: 'Roboto Mono', Helvetica, Arial, sans-serif !important;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-justify {
+  text-align: justify;
+}
+.text-none {
+  text-decoration: none;
+}
+.text-over {
+  text-decoration: overline;
+}
+.text-under {
+  text-decoration: underline;
+}
+.text-through {
+  text-decoration: line-through;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-upper {
+  text-transform: uppercase;
+}
+
+.text-lower {
+  text-transform: lowercase;
+}
+.font-xs {
+  font-size: 0.5rem !important;
+}
+
+.font-sm {
+  font-size: 0.75rem !important;
+}
+
+.font-md {
+  font-size: 1.25rem !important;
+}
+
+.font-lg {
+  font-size: 1.5rem !important;
+}
+
+.font-xl {
+  font-size: 2rem !important;
+}
+
+.font-2xl {
+  font-size: 3rem !important;
+}
+
+.font-3xl {
+  font-size: 4rem !important;
+}
+
+.font-4xl {
+  font-size: 5rem !important;
+}
+
+.font-5xl {
+  font-size: 6rem !important;
+}
+
+.font-light {
+  font-weight: 300 !important;
+}
+
+.font-base {
+  font-weight: 400 !important;
+}
+
+.font-medium {
+  font-weight: 500 !important;
+}
+
+.font-bold {
+  font-weight: 700 !important;
+}
+
+.font-extrabold {
+  font-weight: 900 !important;
+}
+
+.font-italic {
+  font-style: italic !important;
+}
+
+.font-oblique {
+  font-style: oblique !important;
+}
+
+.font-normal {
+  font-style: normal !important;
+}

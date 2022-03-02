@@ -1,0 +1,78 @@
+.info {
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+.list {
+  list-style: disc;
+  color: var(--dark);
+}
+.list li {
+  padding: 0.5rem;
+  margin: 0.25rem 0;
+}
+
+.howtouse {
+  padding: 0 2rem;
+}
+.howtouse h2 {
+  margin-top: 0.75rem;
+}
+.howtouse p {
+  line-height: 2;
+  font-size: 1rem;
+}
+.howtouse p a {
+  text-decoration: underline;
+}
+.howtouse h3 {
+  margin-bottom: 1rem;
+}
+.howtouse h4 {
+  margin-bottom: 0;
+}
+
+.example-show {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+.grid-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.example-show div {
+  background: #54589c;
+  border-radius: 10px;
+  color: var(--light);
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+}
+@media (max-width: 768px) {
+  .example {
+    font-size: 0.8rem;
+    padding: 1rem;
+    margin: 0.25rem 0;
+  }
+  .list li {
+    padding: 0.25rem;
+    margin: 0;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 500px) {
+  .example-show {
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+  .example-show div {
+    font-size: 1rem;
+  }
+}
