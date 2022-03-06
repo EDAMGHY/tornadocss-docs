@@ -20,7 +20,7 @@ const GridOptions = () => {
         unique class prefix, and modifiers. Here’s how the grid changes across
         these breakpoints:
       </p>
-      <div className='table-container'>
+      <div className='table-container' id='containers'>
         <table className='table'>
           <thead>
             <tr>

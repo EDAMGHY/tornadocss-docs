@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/docs.css';
 
-const Docs = () => {
+const Docs = ({ cssVersion }) => {
   return (
     <section>
       <h1>Introduction :</h1>
@@ -26,7 +26,7 @@ const Docs = () => {
         <span className='value'>"stylesheet"</span>
         <span className='attr'>href</span>=
         <span className='value'>
-          "https://unpkg.com/tornadocss@1.2.5/dist/css/tornado.min.css"
+          "https://unpkg.com/tornadocss@{cssVersion}/dist/css/tornado.min.css"
         </span>
         /&gt;
       </code>
@@ -42,7 +42,7 @@ const Docs = () => {
         &lt;<span className='tag'>script</span>{' '}
         <span className='attr'>src</span>=
         <span className='value'>
-          "https://unpkg.com/tornadocss@1.2.5/dist/js/tornado.min.js"
+          "https://unpkg.com/tornadocss@{cssVersion}/dist/js/tornado.min.js"
         </span>
         &gt;&lt;<span className='tag'>script</span>&gt;
       </code>

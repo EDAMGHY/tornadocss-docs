@@ -16,12 +16,13 @@ import Image from './pages/Image';
 import components from './utils/components';
 import ComponentItem from './components/ComponentItem';
 function App() {
+  let cssVersion = '1.3.1';
   return (
     <Router>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/docs' element={<Layout />}>
-          <Route index element={<Docs />} />
+        <Route path='/docs' element={<Layout cssVersion={cssVersion} />}>
+          <Route index element={<Docs cssVersion={cssVersion} />} />
           <Route path='colors' element={<Colors />} />
           <Route path='grid' element={<Grid />} />
           <Route path='breakpoints' element={<Breakpoints />} />

@@ -11,15 +11,15 @@ const HowToUse = () => {
       </p>
       <p>
         -- The Grid supports{' '}
-        <Link to='breakpoints'>five responsive breakpoints</Link> Breakpoints
-        are based on min-width media queries, meaning they affect that
-        breakpoint and all those above it (e.g., .col-4-sm applies to xs,sm, md,
-        lg, and xl). This means you can control container and column sizing and
-        behavior by each breakpoint.
+        <Link to='/docs/breakpoints'>five responsive breakpoints</Link>{' '}
+        Breakpoints are based on min-width media queries, meaning they affect
+        that breakpoint and all those above it (e.g., .col-4-sm applies to
+        xs,sm, md, lg, and xl). This means you can control container and column
+        sizing and behavior by each breakpoint.
       </p>
       <p>
         -- In order to center the Grid use can use <strong>.container</strong>{' '}
-        for a responsive layout and <Link to='breakpoints'>containers</Link>{' '}
+        for a responsive layout and <a href='#containers'>containers</a>{' '}
         supports all viewports and devices,(e.g., .container-md,container-lg ,
         etc).
       </p>

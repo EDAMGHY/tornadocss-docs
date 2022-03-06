@@ -98,7 +98,10 @@ const components = [
           <>
             <div className='alert alert-yellow-dark'>
               Lorem ipsum, dolor sit amet&nbsp;
-              <a href='https://github.com/EDAMGHY' className='alert-link'>
+              <a
+                href='https://github.com/EDAMGHY'
+                className='alert-link'
+              >
                 consectetur
               </a>
               &nbsp;adipisicing.

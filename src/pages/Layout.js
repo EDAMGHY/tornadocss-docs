@@ -1,10 +1,10 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Nav from '../components/Nav';
-const Layout = () => {
+const Layout = ({ cssVersion }) => {
   return (
     <>
-      <Nav />
+      <Nav cssVersion={cssVersion} />
       <div>
         <Outlet />
       </div>

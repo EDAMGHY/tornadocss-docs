@@ -696,6 +696,8 @@ section p {
   margin: 0;
   margin: 0;
   font-size: 0px;
+  display: inline !important;
+  word-wrap: break-word;
 }
 
 .alert {
@@ -714,13 +716,7 @@ section p {
   font-weight: 500 !important;
   font-family: 'Roboto Mono', sans-serif !important;
 }
-.alert .alert-link {
-  color: currentColor;
-  font-weight: bold !important;
-  text-decoration: underline !important;
-  display: inline-block !important;
-  cursor: pointer !important;
-}
+
 .alert-default {
   background: #c3c3c3 !important;
   color: #505050 !important;
@@ -3093,7 +3089,13 @@ section p {
 .table-container {
   overflow-x: hidden;
 }
-
+.alert .alert-link {
+  color: currentColor;
+  font-weight: bold !important;
+  text-decoration: underline !important;
+  display: inline !important;
+  cursor: pointer !important;
+}
 .scroll {
   overflow-y: scroll;
   height: 500px;

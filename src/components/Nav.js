@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import image from '../img/tornadocss-logo.png';
 
-const Nav = () => {
+const Nav = ({ cssVersion }) => {
   const handleClick = (e) => {
     if (e.target.className === 'firsts') {
       if (e.target.children[1].classList.contains('show')) {
@@ -21,7 +21,7 @@ const Nav = () => {
         <Link to='/'>
           <img src={image} alt='tornadocss' />
         </Link>
-        <span>v1.3.0</span>
+        <span>v{cssVersion}</span>
       </div>
       <ul>
         <li className='firsts'>
