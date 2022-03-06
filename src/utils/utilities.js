@@ -2,6 +2,7 @@ const utilities = [
   {
     link: 'height',
     name: 'height',
+    scroll: 'scroll',
     property: 'height',
     example: 'h-10 sm-h-12 md-h-20 lg-h-56 xl-w-72',
     usage: {
@@ -212,6 +213,7 @@ const utilities = [
     link: 'width',
     property: 'width',
     name: 'width',
+    scroll: 'scroll',
     example: 'w-10 sm-w-12 md-w-20 lg-w-56 xl-w-72',
     usage: {
       syntax: 'w-{number}',
@@ -420,6 +422,7 @@ const utilities = [
   {
     link: 'padding',
     name: 'padding',
+    scroll: 'scroll',
     property: 'padding',
     example: 'p-0 md-p-2',
     usage: {
@@ -614,6 +617,7 @@ const utilities = [
     link: 'margin',
     name: 'margin',
     property: 'margin',
+    scroll: 'scroll',
     example: 'm-0 md-m-2',
     usage: {
       syntax: 'm-{number} , mx-{number} or my-{number}',
@@ -943,6 +947,7 @@ const utilities = [
     link: 'flex',
     name: 'flex',
     property: 'flex',
+    scroll: 'scroll',
     example: '',
     usage: {
       syntax: 'justify-{value} , align-{value} or flex-{value}',

@@ -16,15 +16,13 @@ const Position = () => {
         }
       />
       <section style={{ marginTop: '-1rem' }}>
-        {position.map((pos) => {
-          return (
-            <>
-              {pos.name !== 'Position' && <h2>{pos.name} :</h2>}
-              <TableUtility property={pos.property} values={pos.values} />
-              <Usage usage={pos.usage} />
-            </>
-          );
-        })}
+        {position.map((pos, index) => (
+          <div key={index}>
+            {pos.name !== 'Position' && <h2>{pos.name} :</h2>}
+            <TableUtility property={pos.property} values={pos.values} />
+            <Usage usage={pos.usage} />
+          </div>
+        ))}
       </section>
     </>
   );

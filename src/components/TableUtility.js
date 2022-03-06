@@ -1,8 +1,8 @@
 import React from 'react';
 import Tr from './Tr';
-const TableUtility = ({ property, values }) => {
+const TableUtility = ({ property, values, scroll }) => {
   return (
-    <div className='table-container'>
+    <div className={`table-container ${scroll ? scroll : ''}`}>
       <table className='table'>
         <thead>
           <tr>

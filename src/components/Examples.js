@@ -11,110 +11,113 @@ const Examples = () => {
         and so on.
       </p>
       <h3>5 Columns</h3>
-      <div class='example-show grid-5'>
-        <div class='col-2-sm'>1</div>
-        <div class='col-2-sm'>1</div>
-        <div class='col-2-sm'>1</div>
-        <div class='col-2-sm'>1</div>
-        <div class='col-2-sm'>1</div>
+      <div className='example-show grid-5'>
+        <div className='col-2-sm'>1</div>
+        <div className='col-2-sm'>1</div>
+        <div className='col-2-sm'>1</div>
+        <div className='col-2-sm'>1</div>
+        <div className='col-2-sm'>1</div>
       </div>
       <Code
         content={
           <>
-            &lt;<span class='tag'>div</span> <span class='attr'>class</span>=
-            <span class='value'>"row gap-1"</span>&gt; <br />
-            &nbsp;&nbsp; &lt;<span class='tag'>div</span>
-            <span class='attr'>class</span>=
-            <span class='value'>"col-2-sm"</span>
-            &gt;1&lt;/<span class='tag'>div</span>&gt;
+            &lt;<span className='tag'>div</span>{' '}
+            <span className='attr'>class</span>=
+            <span className='value'>"row gap-1"</span>&gt; <br />
+            &nbsp;&nbsp; &lt;<span className='tag'>div</span>
+            <span className='attr'>class</span>=
+            <span className='value'>"col-2-sm"</span>
+            &gt;1&lt;/<span className='tag'>div</span>&gt;
             <br />
-            &nbsp;&nbsp; &lt;<span class='tag'>div</span>
-            <span class='attr'>class</span>=
-            <span class='value'>"col-2-sm"</span>
-            &gt;1&lt;/<span class='tag'>div</span>&gt;
+            &nbsp;&nbsp; &lt;<span className='tag'>div</span>
+            <span className='attr'>class</span>=
+            <span className='value'>"col-2-sm"</span>
+            &gt;1&lt;/<span className='tag'>div</span>&gt;
             <br />
-            &nbsp;&nbsp; &lt;<span class='tag'>div</span>
-            <span class='attr'>class</span>=
-            <span class='value'>"col-2-sm"</span>
-            &gt;1&lt;/<span class='tag'>div</span>&gt;
+            &nbsp;&nbsp; &lt;<span className='tag'>div</span>
+            <span className='attr'>class</span>=
+            <span className='value'>"col-2-sm"</span>
+            &gt;1&lt;/<span className='tag'>div</span>&gt;
             <br />
-            &nbsp;&nbsp; &lt;<span class='tag'>div</span>
-            <span class='attr'>class</span>=
-            <span class='value'>"col-2-sm"</span>
-            &gt;1&lt;/<span class='tag'>div</span>&gt;
+            &nbsp;&nbsp; &lt;<span className='tag'>div</span>
+            <span className='attr'>class</span>=
+            <span className='value'>"col-2-sm"</span>
+            &gt;1&lt;/<span className='tag'>div</span>&gt;
             <br />
-            &nbsp;&nbsp; &lt;<span class='tag'>div</span>
-            <span class='attr'>class</span>=
-            <span class='value'>"col-2-sm"</span>
-            &gt;1&lt;/<span class='tag'>div</span>&gt;
+            &nbsp;&nbsp; &lt;<span className='tag'>div</span>
+            <span className='attr'>class</span>=
+            <span className='value'>"col-2-sm"</span>
+            &gt;1&lt;/<span className='tag'>div</span>&gt;
             <br />
-            &lt;/<span class='tag'>div</span>&gt;
+            &lt;/<span className='tag'>div</span>&gt;
           </>
         }
       />
       <h3>4 Columns</h3>
-      <div class='example-show grid-4'>
-        <div class='col-2-sm'>1</div>
-        <div class='col-2-sm'>1</div>
-        <div class='col-2-sm'>1</div>
-        <div class='col-2-sm'>1</div>
+      <div className='example-show grid-4'>
+        <div className='col-2-sm'>1</div>
+        <div className='col-2-sm'>1</div>
+        <div className='col-2-sm'>1</div>
+        <div className='col-2-sm'>1</div>
       </div>
       <Code
         content={
           <>
-            &lt;<span class='tag'>div</span> <span class='attr'>class</span>=
-            <span class='value'>"row gap-1"</span>&gt; <br />
-            &nbsp;&nbsp; &lt;<span class='tag'>div</span>
-            <span class='attr'>class</span>=
-            <span class='value'>"col-3-sm"</span>
-            &gt;1&lt;/<span class='tag'>div</span>&gt;
+            &lt;<span className='tag'>div</span>{' '}
+            <span className='attr'>class</span>=
+            <span className='value'>"row gap-1"</span>&gt; <br />
+            &nbsp;&nbsp; &lt;<span className='tag'>div</span>
+            <span className='attr'>class</span>=
+            <span className='value'>"col-3-sm"</span>
+            &gt;1&lt;/<span className='tag'>div</span>&gt;
             <br />
-            &nbsp;&nbsp; &lt;<span class='tag'>div</span>
-            <span class='attr'>class</span>=
-            <span class='value'>"col-3-sm"</span>
-            &gt;1&lt;/<span class='tag'>div</span>&gt;
+            &nbsp;&nbsp; &lt;<span className='tag'>div</span>
+            <span className='attr'>class</span>=
+            <span className='value'>"col-3-sm"</span>
+            &gt;1&lt;/<span className='tag'>div</span>&gt;
             <br />
-            &nbsp;&nbsp; &lt;<span class='tag'>div</span>
-            <span class='attr'>class</span>=
-            <span class='value'>"col-3-sm"</span>
-            &gt;1&lt;/<span class='tag'>div</span>&gt;
+            &nbsp;&nbsp; &lt;<span className='tag'>div</span>
+            <span className='attr'>class</span>=
+            <span className='value'>"col-3-sm"</span>
+            &gt;1&lt;/<span className='tag'>div</span>&gt;
             <br />
-            &nbsp;&nbsp; &lt;<span class='tag'>div</span>
-            <span class='attr'>class</span>=
-            <span class='value'>"col-3-sm"</span>
-            &gt;1&lt;/<span class='tag'>div</span>&gt;
+            &nbsp;&nbsp; &lt;<span className='tag'>div</span>
+            <span className='attr'>class</span>=
+            <span className='value'>"col-3-sm"</span>
+            &gt;1&lt;/<span className='tag'>div</span>&gt;
             <br />
-            &lt;/<span class='tag'>div</span>&gt;
+            &lt;/<span className='tag'>div</span>&gt;
           </>
         }
       />
       <h3>3 Columns</h3>
-      <div class='example-show grid-3'>
-        <div class='col-2-sm'>1</div>
-        <div class='col-2-sm'>1</div>
-        <div class='col-2-sm'>1</div>
+      <div className='example-show grid-3'>
+        <div className='col-2-sm'>1</div>
+        <div className='col-2-sm'>1</div>
+        <div className='col-2-sm'>1</div>
       </div>
       <Code
         content={
           <>
-            &lt;<span class='tag'>div</span> <span class='attr'>class</span>=
-            <span class='value'>"row gap-1"</span>&gt; <br />
-            &nbsp;&nbsp; &lt;<span class='tag'>div</span>
-            <span class='attr'>class</span>=
-            <span class='value'>"col-4-sm"</span>
-            &gt;1&lt;/<span class='tag'>div</span>&gt;
+            &lt;<span className='tag'>div</span>{' '}
+            <span className='attr'>class</span>=
+            <span className='value'>"row gap-1"</span>&gt; <br />
+            &nbsp;&nbsp; &lt;<span className='tag'>div</span>
+            <span className='attr'>class</span>=
+            <span className='value'>"col-4-sm"</span>
+            &gt;1&lt;/<span className='tag'>div</span>&gt;
             <br />
-            &nbsp;&nbsp; &lt;<span class='tag'>div</span>
-            <span class='attr'>class</span>=
-            <span class='value'>"col-4-sm"</span>
-            &gt;1&lt;/<span class='tag'>div</span>&gt;
+            &nbsp;&nbsp; &lt;<span className='tag'>div</span>
+            <span className='attr'>class</span>=
+            <span className='value'>"col-4-sm"</span>
+            &gt;1&lt;/<span className='tag'>div</span>&gt;
             <br />
-            &nbsp;&nbsp; &lt;<span class='tag'>div</span>
-            <span class='attr'>class</span>=
-            <span class='value'>"col-4-sm"</span>
-            &gt;1&lt;/<span class='tag'>div</span>&gt;
+            &nbsp;&nbsp; &lt;<span className='tag'>div</span>
+            <span className='attr'>class</span>=
+            <span className='value'>"col-4-sm"</span>
+            &gt;1&lt;/<span className='tag'>div</span>&gt;
             <br />
-            &lt;/<span class='tag'>div</span>&gt;
+            &lt;/<span className='tag'>div</span>&gt;
           </>
         }
       />
@@ -132,25 +135,25 @@ const Examples = () => {
         <Code
           content={
             <>
-              &lt;<span class='tag'>section</span>
-              <span class='attr'>class</span>=
-              <span class='value'>"bg-blue-50"</span>&gt;
+              &lt;<span className='tag'>section</span>
+              <span className='attr'>class</span>=
+              <span className='value'>"bg-blue-50"</span>&gt;
               <br />
-              &nbsp;&nbsp;&lt;<span class='tag'>div</span>
-              <span class='attr'>class</span>=
-              <span class='value'>"container"</span>
+              &nbsp;&nbsp;&lt;<span className='tag'>div</span>
+              <span className='attr'>class</span>=
+              <span className='value'>"container"</span>
               &gt; <br />
-              &nbsp;&nbsp;&nbsp;&nbsp;&lt;<span class='tag'>div</span>
-              <span class='attr'>class</span>=
-              <span class='value'>
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;<span className='tag'>div</span>
+              <span className='attr'>class</span>=
+              <span className='value'>
                 "row gap-1 display-f justify-between align-center"
               </span>
               &gt;
               <br />
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;
-              <span class='tag'>div</span>
-              <span class='attr'>class</span>=
-              <span class='value'>
+              <span className='tag'>div</span>
+              <span className='attr'>class</span>=
+              <span className='value'>
                 "col-12-xs col-4-sm col-3-md col-2-lg bg-blue-10 text-white p-1
                 my-2"
               </span>
@@ -159,12 +162,12 @@ const Examples = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number
               1 <br />
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/
-              <span class='tag'>div</span>
+              <span className='tag'>div</span>
               &gt; <br />
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;
-              <span class='tag'>div</span>
-              <span class='attr'>class</span>=
-              <span class='value'>
+              <span className='tag'>div</span>
+              <span className='attr'>class</span>=
+              <span className='value'>
                 "col-12-xs col-4-sm col-3-md col-2-lg bg-blue-10 text-white p-1
                 my-2"
               </span>
@@ -173,12 +176,12 @@ const Examples = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number
               1 <br />
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/
-              <span class='tag'>div</span>
+              <span className='tag'>div</span>
               &gt; <br />
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;
-              <span class='tag'>div</span>
-              <span class='attr'>class</span>=
-              <span class='value'>
+              <span className='tag'>div</span>
+              <span className='attr'>class</span>=
+              <span className='value'>
                 "col-12-xs col-4-sm col-3-md col-2-lg bg-blue-10 text-white p-1
                 my-2"
               </span>
@@ -187,12 +190,12 @@ const Examples = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number
               1 <br />
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/
-              <span class='tag'>div</span>
+              <span className='tag'>div</span>
               &gt; <br />
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;
-              <span class='tag'>div</span>
-              <span class='attr'>class</span>=
-              <span class='value'>
+              <span className='tag'>div</span>
+              <span className='attr'>class</span>=
+              <span className='value'>
                 "col-12-xs col-4-sm col-3-md col-2-lg bg-blue-10 text-white p-1
                 my-2"
               </span>
@@ -201,12 +204,12 @@ const Examples = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number
               1 <br />
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/
-              <span class='tag'>div</span>
+              <span className='tag'>div</span>
               &gt; <br />
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;
-              <span class='tag'>div</span>
-              <span class='attr'>class</span>=
-              <span class='value'>
+              <span className='tag'>div</span>
+              <span className='attr'>class</span>=
+              <span className='value'>
                 "col-12-xs col-4-sm col-3-md col-2-lg bg-blue-10 text-white p-1
                 my-2"
               </span>
@@ -215,12 +218,13 @@ const Examples = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number
               1 <br />
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/
-              <span class='tag'>div</span>
+              <span className='tag'>div</span>
               &gt; <br />
-              &nbsp;&nbsp;&nbsp;&nbsp;&lt;/<span class='tag'>div</span>&gt;{' '}
-              <br />
-              &nbsp;&nbsp;&lt;/<span class='tag'>div</span>&gt; <br />
-              &lt;/<span class='tag'>section</span>&gt;
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;/<span className='tag'>
+                div
+              </span>&gt; <br />
+              &nbsp;&nbsp;&lt;/<span className='tag'>div</span>&gt; <br />
+              &lt;/<span className='tag'>section</span>&gt;
             </>
           }
         />

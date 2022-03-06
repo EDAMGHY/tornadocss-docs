@@ -3,7 +3,7 @@ import React from 'react';
 const Bg = ({ color, bg }) => {
   return (
     <div
-      class='bg-blue-10'
+      className='bg-blue-10'
       style={{
         background: bg,
         color: color ? color : '#444',

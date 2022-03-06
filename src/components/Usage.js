@@ -15,20 +15,20 @@ const Usage = ({ usage: { nameClass, properties, syntax } }) => {
                 <div key={index}>
                   <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.{' '}
-                    <span class={p}>{p}</span> Reprehen nulla ducimus neque quas
-                    dolorem nostrum!
+                    <span className={p}>{p}</span> Reprehen nulla ducimus neque
+                    quas dolorem nostrum!
                   </p>
                 </div>
               ))
             : nameClass === 'padding' || nameClass === 'margin'
             ? properties.map((p, index) => (
-                <div key={index} class={p}>
+                <div key={index} className={p}>
                   <div>{p}</div>
                 </div>
               ))
             : nameClass === 'flex'
             ? properties.map((p, index) => (
-                <div key={index} class={p}>
+                <div key={index} className={p}>
                   <span>{p}</span>
                   <div>1</div>
                   <div>2</div>

@@ -13,7 +13,7 @@ const Colors = () => {
         out-of-the-box that is a great starting point if you don’t have your own
         specific branding in mind.
       </p>
-      <p class='info'>
+      <p className='info'>
         <strong>
           For more information you can hover over the color you like.
         </strong>

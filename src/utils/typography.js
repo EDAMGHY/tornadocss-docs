@@ -24,6 +24,7 @@ const typography = [
   },
   {
     name: 'Font Size',
+    scroll: 'scroll',
     classMk: [
       'font-xs',
       'font-sm',

@@ -1,11 +1,11 @@
 import React from 'react';
 import '../css/typography.css';
-const Table = ({ name, classMk, example }) => {
+const Table = ({ name, classMk, example, scroll }) => {
   return (
     <>
       <h3>{name}</h3>
-      <div class='table-container'>
-        <table class='table'>
+      <div className={`table-container ${scroll && scroll}`}>
+        <table className='table'>
           <thead>
             <tr>
               <th>Class/Markup</th>
@@ -16,10 +16,10 @@ const Table = ({ name, classMk, example }) => {
             {classMk
               ? classMk.map((c, index) => {
                   return (
-                    <tr>
+                    <tr key={index}>
                       <td>
                         <code>
-                          <span class='tag'>
+                          <span className='tag'>
                             {c.includes('<') ? c : `.${c}`}
                           </span>
                         </code>

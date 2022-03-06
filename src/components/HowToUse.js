@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 const HowToUse = () => {
   return (
     <>
@@ -10,7 +11,7 @@ const HowToUse = () => {
       </p>
       <p>
         -- The Grid supports{' '}
-        <a href='breakpoints.html'>five responsive breakpoints</a> Breakpoints
+        <Link to='breakpoints'>five responsive breakpoints</Link> Breakpoints
         are based on min-width media queries, meaning they affect that
         breakpoint and all those above it (e.g., .col-4-sm applies to xs,sm, md,
         lg, and xl). This means you can control container and column sizing and
@@ -18,7 +19,7 @@ const HowToUse = () => {
       </p>
       <p>
         -- In order to center the Grid use can use <strong>.container</strong>{' '}
-        for a responsive layout and <a href='containers.html'>containers</a>{' '}
+        for a responsive layout and <Link to='breakpoints'>containers</Link>{' '}
         supports all viewports and devices,(e.g., .container-md,container-lg ,
         etc).
       </p>

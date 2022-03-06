@@ -28,8 +28,8 @@ const Breakpoints = () => {
         }
       />
       <section style={{ paddingTop: '0px', marginTop: '0px' }}>
-        <div class='table-container'>
-          <table class='table'>
+        <div className='table-container'>
+          <table className='table'>
             <thead>
               <tr>
                 <th>Prefix</th>
@@ -105,17 +105,19 @@ const Breakpoints = () => {
         <Code
           content={
             <>
-              <span class='gray'>
+              <span className='gray'>
                 &lt;-- font by default md, lg on small screens , xl on tablet
                 screens and 2xl on large screens--&gt;{' '}
               </span>
               <br />
               <br />
-              &lt;<span class='tag'>p</span> <span class='attr'>class</span>=
-              <span class='value'>
+              &lt;<span className='tag'>p</span>{' '}
+              <span className='attr'>class</span>=
+              <span className='value'>
                 "font-md sm-font-lg md-font-xl lg-font-2xl"
               </span>
-              &gt;This is a simple paragraph.&lt;/<span class='tag'>p</span>&gt;
+              &gt;This is a simple paragraph.&lt;/<span className='tag'>p</span>
+              &gt;
             </>
           }
         />

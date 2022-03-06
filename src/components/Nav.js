@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import image from '../img/tornadocss-logo.png';
 
 const Nav = () => {
@@ -31,18 +31,24 @@ const Nav = () => {
           <i className='fas fa-arrow-right'></i> CSS
           <ul>
             <li>
-              <Link className='active' to='colors'>
+              <NavLink activeclassname='active' to='colors'>
                 Colors
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to='grid'>Grid</Link>
+              <NavLink activeclassname='active' to='grid'>
+                Grid
+              </NavLink>
             </li>
             <li>
-              <Link to='breakpoints'>Breakpoints</Link>
+              <NavLink activeclassname='active' to='breakpoints'>
+                Breakpoints
+              </NavLink>
             </li>
             <li>
-              <Link to='typography'>Typography</Link>
+              <NavLink activeclassname='active' to='typography'>
+                Typography
+              </NavLink>
             </li>
           </ul>
         </li>
@@ -50,37 +56,59 @@ const Nav = () => {
           <i className='fas fa-arrow-right'></i> Utilities
           <ul>
             <li>
-              <Link to='height'>Height</Link>
+              <NavLink activeclassname='active' to='height'>
+                Height
+              </NavLink>
             </li>
             <li>
-              <Link to='width'>Width</Link>
+              <NavLink activeclassname='active' to='width'>
+                Width
+              </NavLink>
             </li>
             <li>
-              <Link to='padding'>Padding </Link>
+              <NavLink activeclassname='active' to='padding'>
+                Padding{' '}
+              </NavLink>
             </li>
             <li>
-              <Link to='margin'>Margin</Link>
+              <NavLink activeclassname='active' to='margin'>
+                Margin
+              </NavLink>
             </li>
             <li>
-              <Link to='display'>Display</Link>
+              <NavLink activeclassname='active' to='display'>
+                Display
+              </NavLink>
             </li>
             <li>
-              <Link to='flex'>Flex</Link>
+              <NavLink activeclassname='active' to='flex'>
+                Flex
+              </NavLink>
             </li>
             <li>
-              <Link to='opacity'>Opacity</Link>
+              <NavLink activeclassname='active' to='opacity'>
+                Opacity
+              </NavLink>
             </li>
             <li>
-              <Link to='borderRadius'>Border Radius</Link>
+              <NavLink activeclassname='active' to='borderRadius'>
+                Border Radius
+              </NavLink>
             </li>
             <li>
-              <Link to='borders'>Borders</Link>
+              <NavLink activeclassname='active' to='borders'>
+                Borders
+              </NavLink>
             </li>
             <li>
-              <Link to='shadows'>Shadows</Link>
+              <NavLink activeclassname='active' to='shadows'>
+                Shadows
+              </NavLink>
             </li>
             <li>
-              <Link to='visibility'>Visibility</Link>
+              <NavLink activeclassname='active' to='visibility'>
+                Visibility
+              </NavLink>
             </li>
           </ul>
         </li>
@@ -88,13 +116,19 @@ const Nav = () => {
           <i className='fas fa-arrow-right'></i> Helpers
           <ul>
             <li>
-              <Link to='position'>Position</Link>
+              <NavLink activeclassname='active' to='position'>
+                Position
+              </NavLink>
             </li>
             <li>
-              <Link to='paragraph'>Paragraph</Link>
+              <NavLink activeclassname='active' to='paragraph'>
+                Paragraph
+              </NavLink>
             </li>
             <li>
-              <Link to='image'>Image</Link>
+              <NavLink activeclassname='active' to='image'>
+                Image
+              </NavLink>
             </li>
           </ul>
         </li>
@@ -102,30 +136,41 @@ const Nav = () => {
           <i className='fas fa-arrow-right'></i> Components
           <ul>
             <li>
-              <Link to=''>Alerts</Link>
+              <NavLink activeclassname='active' to='alerts'>
+                Alerts
+              </NavLink>
             </li>
             <li>
-              <Link to=''>Badges</Link>
+              <NavLink activeclassname='active' to='badges'>
+                Badges
+              </NavLink>
             </li>
             <li>
-              <Link to=''>Buttons</Link>
+              <NavLink activeclassname='active' to='buttons'>
+                Buttons
+              </NavLink>
             </li>
             <li>
-              <Link to=''>Cards</Link>
+              <NavLink activeclassname='active' to='cards'>
+                Cards
+              </NavLink>
             </li>
             <li>
-              <Link to=''>Forms</Link>
+              <NavLink activeclassname='active' to='forms'>
+                Forms
+              </NavLink>
             </li>
             <li>
-              <Link to=''>List</Link>
+              <NavLink activeclassname='active' to='lists'>
+                Lists
+              </NavLink>
             </li>
             <li>
-              <Link to=''>Navbar</Link>
+              <NavLink activeclassname='active' to='navbar'>
+                Navbar
+              </NavLink>
             </li>
           </ul>
-        </li>
-        <li>
-          <Link to=''>Examples</Link>
         </li>
       </ul>
     </aside>

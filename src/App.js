@@ -13,6 +13,8 @@ import Borders from './components/Borders';
 import Position from './pages/Position';
 import Paragraph from './pages/Paragraph';
 import Image from './pages/Image';
+import components from './utils/components';
+import ComponentItem from './components/ComponentItem';
 function App() {
   return (
     <Router>
@@ -25,12 +27,23 @@ function App() {
           <Route path='breakpoints' element={<Breakpoints />} />
           <Route path='typography' element={<Typography />} />
           <Route path='borders' element={<Borders />} />
-          {utilities.map((utility) => (
-            <Route path={utility.link} element={<Utility {...utility} />} />
+          {utilities.map((utility, index) => (
+            <Route
+              key={index}
+              path={utility.link}
+              element={<Utility {...utility} />}
+            />
           ))}
           <Route path='position' element={<Position />} />
           <Route path='paragraph' element={<Paragraph />} />
           <Route path='image' element={<Image />} />
+          {components.map((cmp, index) => (
+            <Route
+              key={index}
+              path={cmp.link}
+              element={<ComponentItem {...cmp} />}
+            />
+          ))}
         </Route>
       </Routes>
     </Router>
