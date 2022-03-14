@@ -14,9 +14,16 @@ const Colors = () => {
         specific branding in mind.
       </p>
       <p className='info'>
-        <strong>
-          For more information you can hover over the color you like.
-        </strong>
+        For more information you can hover over the color you like.
+      </p>
+      <h2>Note</h2>
+      <p className='info'>
+        You can use the colors palettes with text color{' '}
+        <span className='tag'>.text-`(color)`-`(number*)`0</span> as well with
+        background color <span className='tag'>.bg-`(color)`-`(number*)`0</span>{' '}
+      </p>
+      <p>
+        <strong>number: from 1 to 8</strong>
       </p>
       {colors.map((color, index) => (
         <Color key={index} {...color} />
