@@ -6,7 +6,9 @@ const Color = ({ bgs, name }) => {
       <h3>{name[0].toUpperCase() + name.slice(1)}</h3>
       <div className='colors'>
         <div className='grid-8'>
-          {bgs ? bgs.map((b, index) => <Bg key={index} {...b} />) : 'Loading'}
+          {bgs
+            ? bgs.map((b, index) => <Bg key={index} index={index} {...b} />)
+            : 'Loading'}
         </div>
       </div>
     </>

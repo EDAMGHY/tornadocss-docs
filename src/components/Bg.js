@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Bg = ({ color, bg }) => {
+const Bg = ({ color, bg, index }) => {
   return (
     <div
       className='bg-blue-10'
@@ -9,7 +9,7 @@ const Bg = ({ color, bg }) => {
         color: color ? color : '#444',
       }}
     >
-      <span>10</span>
+      <span>{index + 1}0</span>
       <span>#232980</span>
     </div>
   );
