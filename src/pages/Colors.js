@@ -1,4 +1,5 @@
 import React from 'react';
+import Bg from '../components/Bg';
 import Color from '../components/Color';
 import '../css/colors.css';
 import colors from '../utils/colors';
@@ -28,6 +29,18 @@ const Colors = () => {
       {colors.map((color, index) => (
         <Color key={index} {...color} />
       ))}
+      <h3>White</h3>
+      <div className='colors'>
+        <div className='grid-8'>
+          <Bg bg='#fff' color='#000' />
+        </div>
+      </div>
+      <h3>Black</h3>
+      <div className='colors'>
+        <div className='grid-8'>
+          <Bg bg='#000' color='#fff' />
+        </div>
+      </div>
     </section>
   );
 };

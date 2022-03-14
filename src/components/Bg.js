@@ -8,7 +8,7 @@ const Bg = ({ color, bg, index }) => {
         color: color ? color : '#444',
       }}
     >
-      <span>{index + 1}0</span>
+      {index && <span>{index + 1}0</span>}
       <span>{bg}</span>
     </div>
   );

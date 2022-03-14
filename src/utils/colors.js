@@ -90,13 +90,5 @@ const colors = [
       { bg: '#e6e6e6' },
     ],
   },
-  {
-    name: 'black',
-    bgs: [{ bg: '#000', color: '#fff' }],
-  },
-  {
-    name: 'white',
-    bgs: [{ bg: '#fff', color: '#000' }],
-  },
 ];
 export default colors;
