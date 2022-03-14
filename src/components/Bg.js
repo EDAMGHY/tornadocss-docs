@@ -6,9 +6,10 @@ const Bg = ({ color, bg, index }) => {
       style={{
         background: bg,
         color: color ? color : '#444',
+        justifyContent: `${index === undefined ? 'center' : 'space-between'}`,
       }}
     >
-      {index && <span>{index + 1}0</span>}
+      <span>{index !== undefined ? `${index + 1}0` : ''}</span>
       <span>{bg}</span>
     </div>
   );
